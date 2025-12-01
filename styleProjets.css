@@ -1,0 +1,82 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-color: #FFEFF8;
+}
+.apercu_projets{
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+    gap: 10vh;
+    padding-bottom: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.apercu_projets h3{
+    margin-top: 10vh;
+    font-size: clamp(15px, 20px, 25px);
+}
+.apercu_projets_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.apercu_projets_card{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    background-color: white;
+    background-color: white;
+    box-shadow: 0px 0px 30px black;
+    border-radius: 20px;
+    gap: 4vh;
+    margin-bottom: 10vh;
+}
+.apercu_projets_card:hover{
+    scale: 1.1;
+}
+.apercu_projets_card img{
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 0px 30px black;
+    margin-top: 4vh;
+}
+.apercu_projets_card_button{
+    display: flex;
+    justify-content: center;
+}
+.apercu_projets_card_button a{
+    text-decoration: none;
+    padding: 2vw 4vw;
+    background-color: #5C4673;
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+    font-size: clamp(10px, 16px, 20px);
+}
+.apercu_projets_card_button a:hover{
+    background-color: #206A73;
+    box-shadow: inset 0 5px 5px black;
+}
+
+@media screen and (min-width: 768px) {
+    .apercu_projets_card{
+        width: 40vw;
+    }
+    .apercu_projets_cards{
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+    }
+}

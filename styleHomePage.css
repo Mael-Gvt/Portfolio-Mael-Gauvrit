@@ -140,7 +140,7 @@ main{
     width: 70vw;
     margin: auto;
     gap: 10vh;
-    margin-bottom: 10vh;
+    padding-bottom: 10vh;
 }
 .apercu_projets h3{
     font-size: clamp(15px, 20px, 25px);

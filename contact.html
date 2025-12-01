@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Maël Gauvrit</title>
+    <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="styleContact.css">
+    <link rel="stylesheet" href="styleFooter.css">
+</head>
+<body>
+
+       <input type="checkbox" class="menu-mobile-checkbox" id="menuMobileBurger">
+
+    <header class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+            <div class="menu-desktop">
+                <a href="index.html">Accueil</a>
+                <a href="services.html">Services</a>
+                <a href="projets.html">Projets réalisés</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <label for="menuMobileBurger" class="menu-mobile-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </nav>
+    </header>
+
+    <div class="menu-mobile">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="projets.html">Projets réalisés</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <main>
+
+        <section class="contact_informations">
+
+            <div class="contact_information_box">
+                <h3 class="contact_information_title">Informations de contact</h3>
+                <div class="contact_information_info">
+                    <p class="info1"><span>📞</span>: 06-45-41-99-67</p>
+                    <p class="info2"><span>📧</span>: magauv209@gmail.com</p>
+                    <p class="info3"><span>🕒</span>: 9h-18h du lundi au vendredi / fermé le week-end</p>
+                    <p class="info4"><span>📫</span>: 4 avenue du Château Hébert, 35800 Dinard</p>
+                </div>
+                <div class="contact_informations_social">
+                    <h3> Réseaux sociaux:</h3>
+                    <div class="contact_socials_links">
+                        <a href=""><img src="img/socials/facebook_logo.png" alt=""></a>
+                        <a href=""><img src="img/socials/instagram_logo.png" alt=""></a>
+                        <a href=""><img src="img/socials/linkedin_logo.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="form_contact">
+            <h3>Formulaire de contact</h3>
+            <form action="">
+                <div class="form_identite">
+                    <label for="nom_prenom">Nom Prénom :</label>
+                    <input type="text" id="nom_prenom" placeholder="Ex: Dupon François">
+                </div>
+                <div class="form_mail">
+                    <label for="mail">Adresse mail :</label>
+                    <input type="text" id="mail" placeholder="Ex: dupont.françois@gmail.com">
+                </div>
+                <div class="form_objet">
+                    <label for="objet">Objet :</label>
+                    <input type="text" id="objet" placeholder="Ex: Demande de maquette">
+                </div>
+                <div class="form_msg">
+                    <label for="message">Message :</label>
+                    <textarea id="message" placeholder="Ex: Bonjour, je vous contacte pour faire une maquette de site internet pour mon magasin de ..."></textarea>
+                </div>
+                <div class="form_button">
+                 <a href="projets.html">Envoyer</a>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <a class="footer-text-1" href="">Mentions Légales</a>
+            <a class="footer-text-2" href="">Politiques de confidentialité</a>
+            <a class="footer-text-3" href="">Plan du site</a>
+            <a class="footer-text-4" class="footer-text-1" href="contact.html">Contact</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -5,10 +5,18 @@
 }
 
 main{
-    padding-top: 20vh;
+    background-color: #FFEFF8;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.cards_services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vh;
+    padding-bottom: 20vh;
+}
 .card_services{
     padding: 2vw;
     display: flex;
@@ -21,11 +29,7 @@ main{
     box-shadow: 0px 0px 30px black;
     border-radius: 20px;
     gap: 10vh;
-    margin-bottom: 10vh;
     line-height: 5vh;
-}
-.card_services:hover{
-    scale: 1.1;
 }
 h3{
     padding-top: 5vh;
@@ -37,7 +41,6 @@ p{
 .card_services_button{
     display: flex;
     justify-content: center;
-    margin-bottom: 5vh;
 }
 .card_services a{
     text-decoration: none;
@@ -59,9 +62,10 @@ p{
         grid-template-areas: 
         "a b"
         "c d";
-        justify-content: space-around;
+        justify-content: center;
         padding-top: 10vh;
         padding-bottom: 10vh;
+        gap: 5vw;
     }
     .card_services{
         width: 40vw;
